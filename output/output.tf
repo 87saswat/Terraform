@@ -3,7 +3,7 @@ output "sample-var" {
 }
 
 variable "x" {
-    value = "Hi from saswat"
+    default = "Hi from saswat"
 }
 
 output "y" {
