@@ -1,5 +1,5 @@
 variable "my-var" {
-    defautl = "Hello Universe"
+    default = "Hello Universe"
 }
 
 output "print-var" {
