@@ -21,3 +21,11 @@ variable "x" {
 output "y" {
   value = var.x
 }
+
+variable "try" {
+  default = "I am in last order"
+}
+
+output "test-try" {
+  value = "Hello I am ${var.try}"
+}
