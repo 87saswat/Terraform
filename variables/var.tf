@@ -11,5 +11,5 @@ variable "my-name" {
 }
 
 output "name" {
-  value = "Hello I am ${var.my_name}"
+  value = "Hello I am ${var.my-name}"
 }
