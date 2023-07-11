@@ -13,3 +13,11 @@ variable "my-name" {
 output "name" {
   value = "Hello I am ${var.my-name}"
 }
+
+variable "x" {
+    default = 5
+}
+
+output "y" {
+  value = var.x
+}
